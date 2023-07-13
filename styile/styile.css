@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1{
+    font-size: 114px;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 56px;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+.pro-btn{
+    padding: 10px 20px;
+    background-color: #bf2222;
+    color: white;
+    border-radius: 5px;
+}
+
+.contanier{
+    width: 1180px;
+    margin-inline: auto;
+    /* border: 1px solid blue; */
+}
+/* hero section */
+.maintop{
+    width: 100%;
+}
+.hero-section{
+    width: 100%;
+    height: 550px;
+    color: #3d2514;
+    background-image: url(../images/Untitled-1.jpg);
+    padding-top: 5px;
+    /* margin-bottom: 50vh; */
+}
+.nav{
+    justify-content: space-between;
+    
+
+}
+.logo img{
+    width: 200px;
+}
+.right-top img{
+    color: #3d2514;
+    width: 30px;
+    margin-right: 10px;
+}
+.pages{
+    margin-right: 40px;
+}
+.right-ligo{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.list-items{
+    list-style: none;
+}
+
+
+/* main section */
+
+
+.man-section{
+    height: 100%;
+    /* justify-content: center; */
+}
+.left-section{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+/* .left-section input{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 15px;
+    border: 1px solid blue;
+} */
+.left-text h4{
+    border: 2px dotted #3d2514;
+    width: 300px;
+    padding: 3px;
+}
+.right-section{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+}
+.one img{
+    width: 280px;
+    position: relative;
+    left: 180px;
+    bottom: -20px;
+    z-index: 1;
+}
+.two img{
+    width: 180px;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+    rotate:-40deg;
+}
+.three img{
+    width: 130px;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+}
+.right-img{
+    display: inline-block;
+    position: absolute;
+}
+.four{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    bottom: -100px;
+    left: 100px;
+    z-index: 2;
+
+}
+.four p{
+    border: 2px dotted wheat;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    transition: 0.20s ease-in-out;
+}
+.four p:hover{
+    color: blue;
+}
+/* naw section  */
+.section-one{
+    margin-top: 30px;
+
+}
+ .manu{
+    justify-content: space-between;
+}
+.let-manu{
+    background-image: url(../images/Burger\ Image1.png);
+    width: 49%;
+    height: 400px;
+    background-size: cover; 
+    /* background-repeat: no-repeat;
+    /* border: 1px solid blue; */
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+}
+.right-manu{
+    width: 49%;
+    /* border: 1px solid blue; */
+}
+.right-sec-top{
+    background-image: url(../images/Image.png);
+    height: 185px;
+    background-position: center;
+    margin: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.right-bottom{
+    background-image: url(../images/Image1.png);
+    /* border: 1px solid blue; */
+    height: 185px;
+    background-position: center;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.p-and-h p{
+   position: relative;
+   left: 20px;
+   top: 20px;
+   gap: 10px;
+}
+.p-and-h h4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    gap: 10px;
+ }
+.p-and-h p{
+    font-size: 1.2rem;
+}
+/* product */
+.product-section{
+    margin-top: 40px;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.product-header{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.product-header a{
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 3px;
+}
+.product-header h2{
+    margin: 15px 0;
+    color: #3d2514;
+}
+.product-header p{
+    line-height: 20px;
+}
+/* product */
+.product{
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+}
+.product img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+.product p{
+    margin: 10px 0;
+    width: 75%;
+}
+/* event section */
+.event-section{
+    justify-content: center;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 80px;
+    gap: 30px;
+    box-shadow: 0 0 10px #888;
+    
+}
+.left-text-section{
+    width: 50%;
+}
+.left-text-section h4{
+    margin-bottom: 20px;
+}
+.left-text-section h4,.left-text-section h5,.left-text-section p{
+    margin-left: 10px;
+}
+.right-event-img{
+    width: 50%;
+}
+.right-event-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* booking section */
+.booking-section{
+    margin-top: 40px;
+}
+.booking-sec-img{
+    width: 200px;
+    position: relative;
+}
+.plate{
+    left: 800px;
+    top: 280px;
+}
+.bottle-img{
+    height: 150px;
+    width: 50px;
+    position: relative;
+    left: -150px;
+    top: 250px;
+}
+.booking-burger-image{
+    left: 0;
+    top: 0;
+}
+.booking-header{
+    text-align: center;
+    color: #3d2514;
+}
+/* INPUT SECTION */
+.inp-right,.inp-left{
+    flex-direction: column;
+    gap: 20PX;
+    margin-inline: 20PX;
+}
+.inp-right input,.inp-left input{
+    padding: 10PX 35PX;
+    text-align: start;
+}
+.inp-man-section{
+    justify-content: center;
+    margin: 40PX 0PX;
+}
+.INP-BTB{
+    width: 235PX;
+    text-align: center!important;
+    background-color: #bf2222;
+    border: 0PX;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 12px 0px!important;
+}
+/* footer */
+.footer-contanier{
+    background-image: url(../images/Layer.png);
+    height: 400px;
+}
+.footer-top{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 40px;
+    height: 300px;
+
+}
+.footer-right{
+    flex-direction: column;
+    align-items: center!important;
+    width: 100%;
+    justify-content: end;
+    height: 200px;
+}
+.footer-right-img{
+    margin-left: 20px;
+}
+.footer-left{
+    max-width: 40vw;
+}
+.footer-left img{
+    width: 200px;
+    margin: 40px 0px;
+}
+.footer-left p{
+    color: white;
+}
+.footer-right-text{
+    margin-right: 15px;
+}
+.footer-location {
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 20px;
+}
+.footer-email{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    margin-left: 20px;
+}
+/* form section */
+.containernew {
+    display: flex;
+    width: 100%;
+}
+
+.row-lefter {
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+.col input{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 15px;
+    border: 1px solid blue;
+}
+.row-righter {
+    border: 1px solid blue;
+    width: 50%;
+   margin: 0 auto;
+}
+#contanierr table{
+    margin: 0 auto;
+}
+#contanierr table tbody tr th{
+    padding-inline: 30px;
+}
+td button{
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+/* Style the search field */
+.serch-box input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    /* float: left; */
+    width: 232;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  /* .serch-box button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  } */
+  
+  /* .serch-box button:hover {
+    background: #0b7dda;
+  } */
+  /* drop down */
+  .drop-down{
+    border: 1px solid blue;
+    width: 232px;
+    z-index: 1;
+    position: relative;
+    background-color: #f6f6f6;
+  }
+  #dropdown div:hover {background-color: #ddd;}
+  
+  /* Clear floats */
+  .serch-box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .show {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer{
+    margin-top: 300px;
+}

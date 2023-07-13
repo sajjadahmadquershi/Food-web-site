@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .containernew {
+            display: flex;
+            width: 100%;
+        }
+
+        .row-lefter {
+            width: 50%;
+            border: 1px solid blue;
+            display: flex;
+            justify-content: center;
+        }
+        .col input{
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            width: 300px;
+            font-size: 15px;
+            border: 1px solid blue;
+        }
+        .row-righter {
+            border: 1px solid blue;
+            width: 50%;
+           margin: 0 auto;
+        }
+      
+    </style>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <div class="containernew">
+        <div class="row-lefter">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="inp1">
+                </div>
+                <div class="col">
+                    <input type="tel" class="form-control" placeholder="phone no" aria-label="Last name" id="inp2">
+                </div>
+            
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="last name" aria-label="First name" id="inp3">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="father namr name" aria-label="Last name"
+                        id="inp4">
+                </div>
+                <div class="col">
+                    <input type="date"  class="form-control" placeholder="date of barth" aria-label="Last name"
+                        id="inp5">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" onclick="addcourse()">submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="row-righter" id="rowrightt">
+
+        </div>
+
+    </div>
+    <script>
+
+          //  let a = [{ name: 'sajjad', phone: '09876554443', lname: 'hussain', fathname: 'abdul', dateofbarth: '01-03-1993' }, { name: 'sajad', phone: '098706554443', lname: 'hussain', fathname: 'abdul', dateofbarth: '01-03-1993' }, { name: 'ali', phone: '6635363754937', lname: 'hussain', fathname: 'abdul', dateofbarth: '01-03-1993' }, { name: 'faz', phone: '663536378987', lname: 'hussain', fathname: 'abdul', dateofbarth: '01-03-1993' }, { name: 'afzal', phone: '66356378937', lname: 'hussain', fathname: 'abdul', dateofbarth: '01-03-1993' }];
+            // let inp1 = document.getElementById('inp1').value
+            // let inp2 = document.getElementById('inp2').value
+            // let inp3 = document.getElementById('inp3').value
+            // let inp4 = document.getElementById('inp4').value
+            // let inp5 = document.getElementById('inp5').value
+            // console.log(inp1, inp2, inp3, inp4, inp5)
+            // // let aaa= {name:inp1.value,phone:inp2.value,lname:inp3.value,fathname:inp4.value,dateofbarth:inp5.value}
+            // a.push({ name: inp1.value, phone: inp2.value, lname: inp3.value, fathname: inp4.value, dateofbarth: inp5.value })
+            // console.log(a)
+
+
+
+            //inp=()=>{
+
+
+
+                
+                
+        
+
+
+
+           // document.write(b)
+        
+            // }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            // listcourse=()=>{
+            //     let b = "<table border == '1'>"
+            //     b += '<tr>' +
+            //         '<th>' + 'First Name' + '</th>' +
+            //         '<th>' + 'last name' + '</th>' +
+            //         '<th>' + 'Phone' + '</th>' +
+            //         '<th>' + 'Father name' + '</th>' +
+            //         '<th>' + 'Date of barth' + '</th>' +
+            //         '</tr>';
+            //     for (let i = 0; i < course.length; i++) {
+            //         //const element = array[i];
+                    
+                
+            //         b += '<tr>' +
+            //             '<td>' + course[i][0] + '<br>' + //i + '<br>' + k.length + '<br>' + '</td>' +
+            //             '<td>' + course[i][1] + '</td>' +
+            //             '<td>' + course[i][2] + '</td>' +
+            //             '<td>' + course[i][3] + '</td>' +
+            //             '<td>' + course[i][4] + '</td>' +
+            //             '</tr>';
+            //     };
+            //     b += '</table>'
+            //     //document.write(b)
+            //     return(b)
+            // }
+    </script>
+    <script src="../javascript/fun.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
